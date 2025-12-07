@@ -53,12 +53,14 @@ const IGNORE_PATTERNS = [
   '.config',
   '.upm',
   '.cache',
+  '.local',
   'dist',
   '.env',
   '.env.local',
   'package-lock.json',
   '.breakpoints',
-  'generated-icon.png'
+  'generated-icon.png',
+  'attached_assets'
 ];
 
 function shouldIgnore(filePath: string): boolean {
