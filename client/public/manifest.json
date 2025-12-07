@@ -1,0 +1,17 @@
+{
+  "short_name": "Shoppermo",
+  "name": "Shoppermo - Hyper-local Shopping",
+  "icons": [
+    {
+      "src": "/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/app",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#F95E01",
+  "orientation": "portrait"
+}
